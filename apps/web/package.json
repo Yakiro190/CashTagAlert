@@ -1,0 +1,11 @@
+{
+  "name": "@cashtagalert/web",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo 'web dev server placeholder'",
+    "build": "echo 'web build placeholder'",
+    "test": "echo 'web test placeholder'",
+    "lint": "echo 'web lint placeholder'"
+  }
+}
