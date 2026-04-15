@@ -1,27 +1,27 @@
 # CashTagAlert
 
-Развернутый стартовый репозиторий (monorepo) для проекта CashTagAlert.
+Expanded starter monorepo for the CashTagAlert project.
 
-## Структура
+## Structure
 
-- `apps/web` — веб-клиент
+- `apps/web` — web client
 - `apps/api` — backend API
-- `packages/shared` — общий код (типы/утилиты)
-- `docs` — документация
-- `infra` — инфраструктура (docker, deploy)
-- `scripts` — служебные скрипты
-- `tests/e2e` — e2e тесты
+- `packages/shared` — shared code (types/utils)
+- `docs` — documentation
+- `infra` — infrastructure (docker, deploy)
+- `scripts` — utility scripts
+- `tests/e2e` — end-to-end tests
 
-## Быстрый старт
+## Quick start
 
 ```bash
 pnpm install
 pnpm dev
 ```
 
-## Команды
+## Commands
 
-- `pnpm dev` — запуск web + api в dev
-- `pnpm build` — сборка всех пакетов
-- `pnpm test` — запуск тестов
-- `pnpm lint` — линтинг
+- `pnpm dev` — run web + api in development mode
+- `pnpm build` — build all packages
+- `pnpm test` — run tests
+- `pnpm lint` — run lint checks

@@ -1,10 +1,10 @@
 # Architecture
 
-- `web` — UI и клиентская логика
-- `api` — REST/WS API и бизнес-логика
-- `shared` — общие типы и утилиты
+- `web` — UI and client-side logic
+- `api` — REST/WS API and business logic
+- `shared` — shared types and utilities
 
-Дальше можно добавить:
-- брокер очередей для алертов
-- интеграции с биржами/соцсетями
-- worker для фоновых уведомлений
+Possible next additions:
+- queue broker for alerts
+- exchange/social integrations
+- background notification worker
